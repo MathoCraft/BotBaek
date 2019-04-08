@@ -1,0 +1,56 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "cursecraftgeneral",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.4.2",
+    "moment": "^2.17.1",
+    "moment-duration-format": "^2.2.2",
+    "ytdl-core": "^0.29.1",
+    "superagent": "^4.0.0",
+    "string-similarity": "^3.0.0",
+    "table": "^5.1.1",
+    "array-sort": "^1.0.0",
+    "quick.hook": "^1.5.1",
+    "mal-scraper": "^2.5.0",
+    "random-puppy": "^1.1.0",
+    "figlet": "^1.2.1",
+    "sqlite": "^3.0.2",
+    "quick.db": "^6.3.2",
+    "discord.js-arbitrary-ffmpeg": "^1.0.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "forever-monitor": "^1.7.1",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.1.1",
+    "node-gyp": "^3.8.0",
+    "ms": "^2.1.1",
+    "fs": "^0.0.2",
+    "snekfetch": "^4.0.4",
+    "weather-js": "^2.0.0",
+    "request": "^2.88.0",
+    "cr.js": "^0.2.2",
+    "gif-search": "^2.0.1"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/cursecraftgeneral"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
